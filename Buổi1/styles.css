@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .slogan {
+    font-size: 18px;
+}
+
+/* Navigation Menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+.menu a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+.main {
+    display: flex;
+    flex: 1;
+}
+
+/* Left Menu */
+.left-menu {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.left-menu ul {
+    list-style: none;
+}
+
+.left-menu li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left-menu li:hover {
+    background-color: #ccc;
+}
+
+/* Main Content Area */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #868686;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
